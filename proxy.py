@@ -36,11 +36,11 @@ def receive_from(connection):
     return buffer                           # Return the buffer with inserted data
 
 def request_handler(buffer):
-    # Perform packet modifications
+    # Perform packet modifications (Optional)
     return buffer
 
 def response_handler(buffer):
-    # Perform packet modifications, think fuzzing tasks and check for authentication
+    # Perform packet modifications, for example: fuzzing tasks and checks for authentication
     return buffer
 
 
